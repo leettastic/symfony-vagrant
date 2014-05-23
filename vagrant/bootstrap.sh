@@ -20,7 +20,7 @@ sudo sed -i "s/display_errors = .*/display_errors = On/" /etc/php5/apache2/php.i
 sudo sed -i "s/short_open_tag = .*/short_open_tag = Off/" /etc/php5/apache2/php.ini
 sudo sed -i "s/short_open_tag = .*/short_open_tag = Off/" /etc/php5/cli/php.ini
 sudo sed -i "s/;date.timezone =/date.timezone =\"Europe\/London\"/" /etc/php5/apache2/php.ini
-sudo sed -i "s/;date.timezone =/date.timezone =\"Europe\/London\"/" /etc/cli/apache2/php.ini
+sudo sed -i "s/;date.timezone =/date.timezone =\"Europe\/London\"/" /etc/php5/cli/php.ini
 
 sudo service apache2 restart
 
