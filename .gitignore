@@ -17,3 +17,8 @@ composer.lock
 
 .idea
 *.DS_STORE
+
+bin/behat
+bin/doctrine
+bin/doctrine.php
+bin/phpspec
